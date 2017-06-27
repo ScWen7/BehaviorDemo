@@ -44,11 +44,10 @@
                 >
 
                 <LinearLayout
-                    android:layout_gravity="center_horizontal"
                     android:id="@+id/main.linearlayout.title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                   android:layout_marginTop="32dp"
+                    android:layout_gravity="center"
                     android:orientation="vertical"
                     >
 
@@ -59,7 +58,7 @@
                         android:gravity="bottom|center"
                         android:text="sCwEN"
                         android:textColor="@android:color/white"
-                        android:textSize="20sp"
+                        android:textSize="30sp"
                         />
 
                     <TextView
@@ -108,7 +107,7 @@
     </android.support.v4.widget.NestedScrollView>
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
+        android:id="@+id/main.toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/colorPrimary"
@@ -151,7 +150,7 @@
         app:border_width="2dp"
         app:finalHeight="@dimen/image_final_width"
         app:finalYPosition="2dp"
-        app:layout_behavior="com.xxh.coordinatorlayoutdemo.AvatarBehavior2"
+        app:layout_behavior="com.xxh.coordinatorlayoutdemo.AvatarImageBehavior"
         app:startHeight="2dp"
         app:startToolbarPosition="2dp"
         app:startXPosition="2dp"

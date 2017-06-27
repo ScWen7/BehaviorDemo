@@ -136,6 +136,7 @@ public class AvatarBehavior extends CoordinatorLayout.Behavior<CircleImageView> 
         if (finalY == 0) {
             finalY = (mToolBarHeight - finalSize) / 2 + mAppBarStartY;
         }
+
         if (originSize == 0) {
             originSize = child.getWidth();
         }
